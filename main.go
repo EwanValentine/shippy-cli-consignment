@@ -56,6 +56,7 @@ func main() {
 	if err != nil {
 		log.Fatalf("Could not list consignments: %v", err)
 	}
+
 	for _, v := range getAll.Consignments {
 		log.Println(v)
 	}
